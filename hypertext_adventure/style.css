@@ -1,0 +1,53 @@
+body {
+    background: black;
+    font-family: Monospace;
+    color: white;
+    padding:50px;
+    font-size: 24;
+}
+
+#options{
+    color:blue;
+}
+
+a:visited {
+    color: blue;
+  }
+
+#hidden{
+    opacity: 0;
+    animation: fadeInAnimation ease 6s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+
+#hidden2{
+    opacity: 0;
+    animation: fadeInAnimation ease 6s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+ 
+}
+
+#hidden3{
+    opacity: 0;
+    animation: fadeInAnimation ease 6s;
+    animation-delay: 5s;
+    animation-fill-mode: forwards;
+ 
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
+#eyes{
+    padding-top: 100px;
+    padding-left:33%;
+    width: 33%;
+}
